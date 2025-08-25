@@ -5,7 +5,7 @@
 # Fuzzy Dark Matter (FDM) Dynamical Friction
 
 <p align="center">
-  <img src="FDMexample.pdf">
+  <img src="FDMexample.png">
 </p>
 
 ## Dynamical friction in FDM universe
