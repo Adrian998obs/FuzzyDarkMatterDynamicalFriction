@@ -1,9 +1,18 @@
-# FDM-Dynamical Friction
-## Dynamical friction in Fuzzy Dark Matter (FDM) universe
 
-FDMDynamicalFrictionForce is a new class of the package [galpy](https://www.galpy.org/), used to perform orbit integration of point masses that undergo dynamical friction in galactic potentials, assuming a FDM universe. This is subclass is derived from the classical dynamical friction class [ChandrasekharDynamicalFrictionForce](https://docs.galpy.org/en/v1.10.1/reference/potentialchandrasekhardynfric.html). 
+[![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-Dynamical friction is a key physical process in galaxies responsible for the energy loss of massive objects such as black holes, galaxy satellites, or globular clusters (GCs). Since dynamical friction directly depends on the distribution of background particles within the galaxy, its behavior can serve as an indirect probe of dark matter properties. Among various alternative dark matter models, FDM has received increasing attention for addressing several shortcomings of the standard cold DM (CDM) paradigm. This alternative model leads to significant modifications of the dark matter density distribution on galactic scales. One of the distinctive dynamical features consist on a reduction or even a suppression of dynamical friction compared to the CDM case. See [Szpilfidel et al. +25]() for more details.
+# Fuzzy Dark Matter (FDM) Dynamical Friction
+
+<p align="center">
+  <img src="FDMexample.pdf">
+</p>
+
+## Dynamical friction in FDM universe
+
+FDMDynamicalFrictionForce is a new class of the package [galpy](https://www.galpy.org/), used to perform orbit integration of point masses that undergo dynamical friction in galactic potentials, assuming a FDM dynamical friction. This is subclass is derived from the classical dynamical friction class [ChandrasekharDynamicalFrictionForce](https://docs.galpy.org/en/v1.10.1/reference/potentialchandrasekhardynfric.html). 
+
+FDM model leads to significant modifications of the dark matter density distribution on galactic scales. One of the distinctive dynamical features consist on a reduction or even a suppression of dynamical friction compared to the CDM case. We have implemented the theoretical work carried out by [Lancaster et al. +19](https://arxiv.org/pdf/1909.06381). See [Szpilfidel et al. +25]() for more a detailed description of the implementation.
 
 ### Usage
 This repository contains : 
@@ -12,8 +21,8 @@ This repository contains :
 * DFefficiency.ipynb, a Jupyter notebook that draws a map of the efficiency of dynamical friction as a function of the halo-GC mass ratio and the mass of the FDM constituent particle. 
 
 ## Authors
-If you use FDMDynamicalFrictionForce in a publication, please cite the code paper [Szpilfidel et al. +25]() and the galpy paper [Bovy +15](https://arxiv.org/abs/1412.3451).
+FDMDynamicalFrictionForce is distributed under the MIT license. See [MIT License](https://en.wikipedia.org/wiki/MIT_License) for more details. If you use FDMDynamicalFrictionForce in a publication, please cite the code paper [Szpilfidel et al. +25]() and the galpy paper [Bovy +15](https://arxiv.org/abs/1412.3451).
 
-* [Adrian Szpilfidel](mailto:adrian.szpilfidel@obspm.fr) -- Paris Sciences & Lettres (PSL), Observatoire de Paris, France
-* [Pierre Boldrini](mailto:pierre.boldrini@obspm.fr) -- Paris Sciences & Lettres (PSL), Observatoire de Paris, France
+* [Adrian Szpilfidel](mailto:adrian.szpilfidel@obspm.fr) -- LIRA, Observatoire de Paris, France
+* [Pierre Boldrini](mailto:pierre.boldrini@obspm.fr) -- LIRA, Observatoire de Paris, France
 * [Jo Bovy](mailto:boldrini@iap.fr) -- University of Toronto, Canada
