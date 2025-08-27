@@ -16,8 +16,8 @@ FDM model leads to significant modifications of the dark matter propreties on ga
 
 ### Usage
 This repository contains : 
-* infallingGCs.ipynb, a Jupyter notebook that generate number of GCs in a dark matter halo and calculate their infall time as a function of their initial energy-angular momentum state. (Runtime : 3 minutes).
-* DFefficiency.ipynb, a Jupyter notebook that draws a map of the efficiency of dynamical friction as a function of the halo-GC mass ratio and the mass of the FDM constituent particle. (Runtime : 20 minutes).
+* infallingGCs.ipynb, a Jupyter notebook that generate number of GCs in a dark matter halo and calculate their infall time as a function of their initial energy-angular momentum state. (Runtime : 0.2 CPU hours).
+* DFefficiency.ipynb, a Jupyter notebook that draws a map of the efficiency of dynamical friction as a function of the halo-GC mass ratio and the mass of the FDM constituent particle. (Runtime : 1.34 CPU hours).
 
 Note : before running the notebooks, make sure you have installed the Python packages galpy and colossus.
 
